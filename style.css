@@ -11,7 +11,7 @@ body {background-color: #cc44cc ;}
     display: flex;
     align-items: center;
     z-index: 1000;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .nav:hover{ 
@@ -74,3 +74,19 @@ top: -350px;
 left:80px;
 font-family: 'Katibeh';
 font-weight: normal;}
+
+#AboutMe{ 
+    padding-left: 10px;
+    position: relative;
+    top:80px; 
+}
+
+#Me{ 
+    background-color: #4F1153;
+    border: 2px solid black;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
