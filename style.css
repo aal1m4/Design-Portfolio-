@@ -1,11 +1,53 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com');
 
-#nav{ height: 80px;
-    width: 1040px;
-    border: 2px solid black;
+body {background-color: #EC6FF0 ;}
+
+#nav{ height: 60px;
+    width:100%;
+    background: rgba(79, 17, 83, 0.41); 
+    position: fixed;
+    top: 0px;
+    left: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    position: sticky; 
+    align-items: center;
+    z-index: 1000;
+    padding-left: 40px;
+}
+
+.nav:hover{ 
+    color:#FFD900;
+}
+
+.nav{ 
+    margin-right: 48px;
+    text-decoration: none;
+    color: white;
+    font-family:'Kaisei Decol', serif !important;
+}
+
+#hero{   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 58px;
+}
+
+.stars-field {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  color: #FFD900;
+  font-size: 22px;
+  animation: twinkle 2.5s ease-in-out infinite;
+  user-select: none;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1;    transform: scale(1);   }
+  50%       { opacity: 0.35; transform: scale(0.7); }
 }
