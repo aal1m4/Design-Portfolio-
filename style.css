@@ -32,5 +32,11 @@ body {background-color: #cc44cc ;}
     color: #FFD900;
     position:absolute;
     font-size: 25px;
+    animation: twinkle 2s; 
+    animation-iteration-count: infinite;
 }
 
+@keyframes twinkle { 
+  0%, 100% { opacity: 1; transform: scale(1);}
+  50% { opacity: 0.37; transform: scale(0.7);} 
+}
