@@ -24,30 +24,3 @@ body {background-color: #EC6FF0 ;}
     color: white;
     font-family:'Kaisei Decol', serif !important;
 }
-
-#hero{   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding-top: 58px;
-}
-
-.stars-field {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
-
-.star {
-  position: absolute;
-  color: #FFD900;
-  font-size: 22px;
-  animation: twinkle 2.5s ease-in-out infinite;
-  user-select: none;
-}
-
-@keyframes twinkle {
-  0%, 100% { opacity: 1;    transform: scale(1);   }
-  50%       { opacity: 0.35; transform: scale(0.7); }
-}
