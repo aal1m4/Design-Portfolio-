@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Caveat:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap');
 
 body {background-color: #cc44cc ;}
 
@@ -11,7 +11,7 @@ body {background-color: #cc44cc ;}
     display: flex;
     align-items: center;
     z-index: 1000;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .nav:hover{ 
@@ -26,7 +26,7 @@ body {background-color: #cc44cc ;}
 }
 
 #intro{display: flex;
-    min-height: 100vh;
+    height: 100vh;
 justify-content: center;
 position: relative;
 padding-top: 60px;
@@ -76,17 +76,26 @@ font-family: 'Katibeh';
 font-weight: normal;}
 
 #AboutMe{ 
-    padding-left: 10px;
-    position: relative;
-    top:80px; 
+    padding-left: 50px; 
+    padding-right: 250px;
 }
 
 #Me{ 
     background-color: #4F1153;
     border: 2px solid black;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 50px 0px 50px;
     color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    font-weight:100;
+    line-height: 1.7;
+}
+
+.star-main{ 
+    color: #FFD900;
+    position:absolute;
+    font-size: 30px;
 }
