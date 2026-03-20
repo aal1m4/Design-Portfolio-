@@ -99,3 +99,19 @@ font-weight: normal;}
     position:absolute;
     font-size: 30px;
 }
+
+.finally{ 
+    color: white;
+    font-size: 150px;
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+}
+
+#finally{ 
+    margin-top: 180px;
+    margin-bottom: 0px;
+}
+
+#museum{ margin-top:20px;
+    margin-left: 470px;
+}
